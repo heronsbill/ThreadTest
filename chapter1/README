@@ -1,7 +1,7 @@
 
 com.mxm.thread
 	.daemon 守护线程
-  .getid getId()方法
+  	.getid getId()方法
 	.interruppt	interrupt()、interruptted()、isInterrupted()
 		.exception 利用异常退出
 		.sleep sleep前、sleep中，中断情况

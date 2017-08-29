@@ -1,1 +1,12 @@
 
+com.mxm.thread
+	.daemon 守护线程
+  .getid getId()方法
+	.interruppt	interrupt()、interruptted()、isInterrupted()
+		.exception 利用异常退出
+		.sleep sleep前、sleep中，中断情况
+	.isalive isAlive()方法
+	.priority 优先级相关
+	.sleep sleep()方法
+	.suspend suspend()、resume()
+	.yield yield()

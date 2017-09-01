@@ -1,1 +1,13 @@
 com.mxm.synchronize
+	.t1	方法内变量线程安全
+	.t2	实例变量非线程安全、多个对象多个锁
+	.t3	脏读
+	.synLockIn_1  锁重入
+	.synLockIn_2  父子类锁重入
+	.throwExceptionNoLock 出现异常自动释放锁
+	.synNotExtends 同步不具有继承性
+	.task synchronized方法的弊端，锁住整个方法耗时长;实例变量的使用加上同步代码块
+	.synOneThreadIn synchronized代码块
+	.doubleSynBlock 俩个方法都用
+	.synBlockString 非this对象的同步监视器
+	.synOutAsyn list读存，线程间同步但随机调用，脏读及处理

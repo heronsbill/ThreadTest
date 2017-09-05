@@ -20,3 +20,4 @@ com.mxm.synchronize
 	.volatileAutomicity volatile的非原子性
 	.atomicIntegerTest 原子类的++操作
 	.atomicIntegerNoSafe 原子类也不安全
+	test

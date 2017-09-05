@@ -11,3 +11,12 @@ com.mxm.synchronize
 	.doubleSynBlock 俩个方法都用
 	.synBlockString 非this对象的同步监视器
 	.synOutAsyn list读存，线程间同步但随机调用，脏读及处理
+	.synStaticMethod synchronized修饰静态方法，及syn(class)代码块
+	.synAndString String对象锁可能遇到的问题
+	.synBlockNoDeadLoop 多对象锁解决无限等待
+	.deadLock 死锁
+	.synLockChange 锁对象改变
+	.volatileTest volatile关键字与死循环
+	.volatileAutomicity volatile的非原子性
+	.atomicIntegerTest 原子类的++操作
+	.atomicIntegerNoSafe 原子类也不安全

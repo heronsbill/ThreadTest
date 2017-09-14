@@ -1,1 +1,12 @@
-
+com.mxm.threads
+	.twoThreadTreadsData 应该是transData写错了，俩个线程间通讯
+	.test 初步尝试wait、notify方法
+	.waitNotifySize5  用wait、notify方法改写线程通讯的例子
+	.waitReleaseLock wait()方法释放锁
+	.notifyHoldLock notify()方法持有锁
+	.notifyOneAndAll notify()和notifyAll()
+	.waitForALongTime notify(5000)按时醒和提前唤醒
+	.notifyBeforeWait notify()比wait()先执行
+	.waitOld 俩个removeThread同时被唤醒，一次对list做remove操作
+	.p_c_test 生产者消费者模式初探(单值单生产者单消费者)
+	.p_c_AllWait 生产者消费者模式(单值多生产者多消费者)

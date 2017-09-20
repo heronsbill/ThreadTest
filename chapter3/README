@@ -19,3 +19,8 @@ com.mxm.threads
 	.joinException join与interrupt
 	.join_sleep_1 join释放锁(调用wait)、sleep不释放锁
 	.joinMoreTest join会和别的进程竞争锁(join方法被synchronized修饰)
+com.mxm.threadlocal
+	.test ThreadLocal使用及验证线程隔离性
+	.initTest 子类继承ThreadLocal并重写initialValue()方法
+	.isolation 初始化值并验证线程隔离性
+	.inheritableThreadLocalTest 子线程继承父线程的值，InheritableThreadLocal类使用

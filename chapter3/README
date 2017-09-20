@@ -10,3 +10,12 @@ com.mxm.threads
 	.waitOld 俩个removeThread同时被唤醒，一次对list做remove操作
 	.p_c_test 生产者消费者模式初探(单值单生产者单消费者)
 	.p_c_AllWait 生产者消费者模式(单值多生产者多消费者)
+	.p_c_stack 生产者消费者(储值在栈中)
+	.inOutputStream 管道字节流阻塞读写
+	.writeReadString 管道字符流阻塞读写
+	.wait_notify_insert_test 操作交替进行
+	.joinTest join例子
+	.joinLong join(time)例子
+	.joinException join与interrupt
+	.join_sleep_1 join释放锁(调用wait)、sleep不释放锁
+	.joinMoreTest join会和别的进程竞争锁(join方法被synchronized修饰)

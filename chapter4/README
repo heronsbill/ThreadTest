@@ -1,0 +1,15 @@
+com.mxm.lock
+	.test lock使用
+	.await await错误及正确使用
+	.awaitPartThread await部分线程
+	.p_c_ooo 生产者消费者模式——一个生产者、一个消费者、一个值
+	.p_c_sso 生产者消费者模式——多个生产者、多个消费者、一个值
+	.lockMethodTest ReentrantLock类的主要方法的简单例子，包括
+		lock.getHoldCount() lock.getQueueLength() lock.getWaitQueueLength(Condition)
+		lock.hasQueueThread(Thread) lock.hasQueueThreads() lock.hasWaiters(Condition)
+		lock.isFair() lock.isHeldByCurrentThread() lock.isLocked()
+		locl.lockInterruptibly() lock.tryLock() lock.tryLock(long, unit)
+		还包括 condition.awaitUninterruptibly() condition.awaitUntil(date)
+	.fairLock 创建lock时，可以指定是否为公平锁
+	.excueteInOrder 利用condition的await和signalAll来顺序执行
+	.readWriteLock 读写锁
